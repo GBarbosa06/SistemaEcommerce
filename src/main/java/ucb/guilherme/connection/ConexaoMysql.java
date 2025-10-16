@@ -26,7 +26,7 @@ public class ConexaoMysql implements ConexaoDB {
             try {
                 conexao.close();
             } catch (SQLException e) {
-                e.printStackTrace();
+                System.out.println("Erro: " + e.getMessage());
             }
         }
     }

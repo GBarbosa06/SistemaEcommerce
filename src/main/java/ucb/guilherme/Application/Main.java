@@ -1,14 +1,15 @@
-package main.java.ucb.guilherme.Application;
+package ucb.guilherme.Application;
 
-import main.java.ucb.guilherme.connection.ConexaoMysql;
-import main.java.ucb.guilherme.dao.ProdutoDAO;
-import main.java.ucb.guilherme.model.ProdutoModel;
+import ucb.guilherme.connection.ConexaoMysql;
+import ucb.guilherme.dao.ProdutoDAO;
+import ucb.guilherme.model.ProdutoModel;
+import ucb.guilherme.connection.ConexaoDB;
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        main.java.ucb.guilherme.connection.ConexaoDB conexao = new ConexaoMysql();
+        ConexaoDB conexao = new ConexaoMysql();
         ProdutoDAO produtoDAO = new ProdutoDAO(conexao);
 
         List<ProdutoModel> produtos = produtoDAO.listarTodos();

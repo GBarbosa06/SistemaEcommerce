@@ -1,4 +1,4 @@
-package main.java.ucb.guilherme.connection;
+package ucb.guilherme.connection;
 
 import java.sql.Connection;
 

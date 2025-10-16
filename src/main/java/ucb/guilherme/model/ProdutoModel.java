@@ -1,4 +1,4 @@
-package main.java.ucb.guilherme.model;
+package ucb.guilherme.model;
 
 public class ProdutoModel {
     private int id;

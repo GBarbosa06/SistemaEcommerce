@@ -1,7 +1,7 @@
-package main.java.ucb.guilherme.dao;
+package ucb.guilherme.dao;
 
-import main.java.ucb.guilherme.connection.ConexaoDB;
-import main.java.ucb.guilherme.model.ProdutoModel;
+import ucb.guilherme.connection.ConexaoDB;
+import ucb.guilherme.model.ProdutoModel;
 
 import java.sql.*;
 import java.util.ArrayList;

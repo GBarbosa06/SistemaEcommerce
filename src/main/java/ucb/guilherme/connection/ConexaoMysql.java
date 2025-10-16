@@ -1,9 +1,8 @@
-package main.java.ucb.guilherme.connection;
+package ucb.guilherme.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import main.java.ucb.guilherme.connection.ConexaoDB;
 
 public class ConexaoMysql implements ConexaoDB {
     String url = "jdbc:mysql://localhost:3306/ecommerce";
